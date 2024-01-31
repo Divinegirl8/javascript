@@ -1,0 +1,41 @@
+// javascript
+
+// while loop
+// Do/While loop
+// For/in loop -> for(const number in myArray) console.log(number) -> it prints the index
+// For/of loop -> for(const number of myArray) console.log(number) -> it prints the value
+// forEach loop
+
+// object -> let user = {firstname : "precious", lastname : "obika",age : 23}; -> this is an object
+
+// const humus = function(factor){
+//     const ingredient = function(amount,unit,name){
+//         let ingredientAmount = factor * amount;
+//         if(ingredientAmount > 1){
+//             unit += "s";
+//         }
+//         return(`${ingredientAmount} ${unit} of ${name}`)
+//     }
+//     return ingredient(6,"cup","juice");
+// }
+
+// const = showCalculation = humus(2);
+// console.log(showCalculation);
+
+// Nested Functions
+// Arrow Functions
+// Function as an argument - the other name is callback
+
+// functions arr(){}; - declarative function
+// let newArr = function(){} - function expression
+// const myArr = () => {} - arrow function
+// const myArr = () => {const sum = 2 + 2;console.log(sum);}
+// const getResultArray = (arr,func) => {const result = [];
+//}
+// const array1 = ["a","b","c"]
+//array1.forEach((element) => console.log(element))
+// const words = ['spray','elite','exuberant']
+// const result = words.filter((word) => word.length > 6);
+// console.log(result) output = ["exuberant"]
+// const array1 = [1,4,9,16] const map1 = array1.map((x) => x * 2); console.log(map1) ouput = [2,8,18,32] array.findIndex((x)=> x > 2) returns the index
+// array.find((x)=> x > 2) returns the value

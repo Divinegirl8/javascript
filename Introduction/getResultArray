@@ -1,0 +1,37 @@
+let birthYears = [2000,1972,1999,2001];
+let currentYear = 2024;
+
+const getResultArray = (arr,func) => {
+    const result = [];
+
+    for(let birthYear of arr){
+        let value = func(birthYear);
+        result.push(value)
+    }
+    return result;
+}
+const calculateAge = (birthYear) =>{
+    let age = currentYear - birthYear;
+    return age;
+}
+console.log(getResultArray(birthYears,calculateAge))
+
+
+function questions(role){
+    switch(role){
+        case 'Manager':
+            return function(role){
+                return `Hi ${role}, what is the core value of the company?`;
+            };
+        case 'native':
+            return `Hi ${role}, what is your best programming language?`;
+        case 'elders':
+            return `Hi ${role}, do you love your job?`;
+        default:
+            return;
+    }
+
+}
+
+answer = questions('Manager')
+console.log(answer("manager"))
