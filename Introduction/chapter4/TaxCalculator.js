@@ -6,10 +6,10 @@ for (let index = 0; index < 3; index++) {
 
     if(earnings > 30000){
         let tax = (earnings * 15)/100;
-        console.log(`your tax is $${tax}`)
+        console.log(`${citizensName} tax is $${tax}`)
     }
     else{
-        console.log(`your tax is $${(earnings * 20)/100}`)
+        console.log(`${citizensName} tax is $${(earnings * 20)/100}`)
     }
     
 }
